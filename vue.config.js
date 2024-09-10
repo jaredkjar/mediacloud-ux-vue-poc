@@ -12,6 +12,7 @@ module.exports = defineConfig({
     ],
     output: {
         libraryTarget: "system",
+        filename: 'js/app.js'
     },
   },
 });
