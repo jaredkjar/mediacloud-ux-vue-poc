@@ -14,5 +14,8 @@ module.exports = defineConfig({
         libraryTarget: "system",
         filename: 'js/app.js'
     },
+    devServer: {
+      server: "https"
+    }
   },
 });
