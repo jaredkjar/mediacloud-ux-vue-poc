@@ -1,9 +1,3 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld />
-  <recently-viewed-channels />
-</template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -15,5 +9,13 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<template>
+  <img src="https://static-00.iconduck.com/assets.00/vue-icon-2048x1766-ntogpmti.png" alt="svelte-icon"
+    height="150px" />
+  <HelloWorld />
+  <recently-viewed-channels />
+</template>
+
+
+
+<style></style>
