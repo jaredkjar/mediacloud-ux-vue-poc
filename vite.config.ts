@@ -6,6 +6,7 @@ import vitePluginSingleSpa from "vite-plugin-single-spa";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "./",
   plugins: [
     vue(),
     vitePluginSingleSpa({
