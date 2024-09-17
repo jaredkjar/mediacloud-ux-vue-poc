@@ -1,3 +1,14 @@
+<script setup>
+import { defineProps } from 'vue';
+
+const props = defineProps({
+  token: String,
+  groups: [String],
+});
+
+console.log('token:', props.token, 'groups:', props.groups); // Access the 'message' prop
+</script>
+
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
